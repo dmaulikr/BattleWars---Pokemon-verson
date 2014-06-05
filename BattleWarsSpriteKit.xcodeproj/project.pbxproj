@@ -24,6 +24,9 @@
 		A4CE18E019408C52006F2F75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18BB19408C4F006F2F75 /* UIKit.framework */; };
 		A4CE18E819408C52006F2F75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4CE18E619408C52006F2F75 /* InfoPlist.strings */; };
 		A4CE18EA19408C52006F2F75 /* BattleWarsSpriteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE18E919408C52006F2F75 /* BattleWarsSpriteKitTests.m */; };
+		A4CE18F619408EA5006F2F75 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE18F519408EA5006F2F75 /* GameOverScene.m */; };
+		A4CE18F919408EC6006F2F75 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE18F819408EC6006F2F75 /* Unit.m */; };
+		A4CE18FC19408ED4006F2F75 /* Army.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE18FB19408ED4006F2F75 /* Army.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +62,13 @@
 		A4CE18DD19408C52006F2F75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A4CE18E519408C52006F2F75 /* BattleWarsSpriteKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattleWarsSpriteKitTests-Info.plist"; sourceTree = "<group>"; };
 		A4CE18E719408C52006F2F75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A4CE18E919408C52006F2F75 /* BattleWarsSpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleWarsSpriteKitTests.m; sourceTree = "<group>"; };
+		A4CE18E919408C52006F2F75 /* BattleWarsSpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BattleWarsSpriteKitTests.m; path = BattleWarsSpriteKitTests/BattleWarsSpriteKitTests.m; sourceTree = SOURCE_ROOT; };
+		A4CE18F419408EA5006F2F75 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		A4CE18F519408EA5006F2F75 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		A4CE18F719408EC6006F2F75 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		A4CE18F819408EC6006F2F75 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+		A4CE18FA19408ED4006F2F75 /* Army.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Army.h; sourceTree = "<group>"; };
+		A4CE18FB19408ED4006F2F75 /* Army.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Army.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +99,9 @@
 		A4CE18AB19408C4F006F2F75 = {
 			isa = PBXGroup;
 			children = (
+				A4CE18CB19408C51006F2F75 /* Main.storyboard */,
+				A4CE18F319408E6A006F2F75 /* Model */,
 				A4CE18BF19408C4F006F2F75 /* BattleWarsSpriteKit */,
-				A4CE18E319408C52006F2F75 /* BattleWarsSpriteKitTests */,
-				A4CE18B619408C4F006F2F75 /* Frameworks */,
-				A4CE18B519408C4F006F2F75 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +112,7 @@
 				A4CE18DC19408C52006F2F75 /* BattleWarsSpriteKitTests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A4CE18B619408C4F006F2F75 /* Frameworks */ = {
@@ -116,20 +125,19 @@
 				A4CE18DD19408C52006F2F75 /* XCTest.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A4CE18BF19408C4F006F2F75 /* BattleWarsSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
-				A4CE18C819408C51006F2F75 /* BattleWarsAppDelegate.h */,
-				A4CE18C919408C51006F2F75 /* BattleWarsAppDelegate.m */,
-				A4CE18CB19408C51006F2F75 /* Main.storyboard */,
 				A4CE18CE19408C51006F2F75 /* BattleWarsViewController.h */,
 				A4CE18CF19408C51006F2F75 /* BattleWarsViewController.m */,
 				A4CE18D119408C51006F2F75 /* BattleWarsMyScene.h */,
 				A4CE18D219408C51006F2F75 /* BattleWarsMyScene.m */,
+				A4CE18F419408EA5006F2F75 /* GameOverScene.h */,
+				A4CE18F519408EA5006F2F75 /* GameOverScene.m */,
 				A4CE18D419408C51006F2F75 /* Spaceship.png */,
-				A4CE18D619408C51006F2F75 /* Images.xcassets */,
 				A4CE18C019408C50006F2F75 /* Supporting Files */,
 			);
 			path = BattleWarsSpriteKit;
@@ -138,6 +146,14 @@
 		A4CE18C019408C50006F2F75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4CE18C819408C51006F2F75 /* BattleWarsAppDelegate.h */,
+				A4CE18C919408C51006F2F75 /* BattleWarsAppDelegate.m */,
+				A4CE18D619408C51006F2F75 /* Images.xcassets */,
+				A4CE18E319408C52006F2F75 /* BattleWarsSpriteKitTests */,
+				A4CE18E919408C52006F2F75 /* BattleWarsSpriteKitTests.m */,
+				A4CE18E419408C52006F2F75 /* Supporting Files */,
+				A4CE18B619408C4F006F2F75 /* Frameworks */,
+				A4CE18B519408C4F006F2F75 /* Products */,
 				A4CE18C119408C50006F2F75 /* BattleWarsSpriteKit-Info.plist */,
 				A4CE18C219408C50006F2F75 /* InfoPlist.strings */,
 				A4CE18C519408C50006F2F75 /* main.m */,
@@ -149,11 +165,9 @@
 		A4CE18E319408C52006F2F75 /* BattleWarsSpriteKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4CE18E919408C52006F2F75 /* BattleWarsSpriteKitTests.m */,
-				A4CE18E419408C52006F2F75 /* Supporting Files */,
 			);
 			path = BattleWarsSpriteKitTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		A4CE18E419408C52006F2F75 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -162,6 +176,18 @@
 				A4CE18E619408C52006F2F75 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			path = BattleWarsSpriteKitTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		A4CE18F319408E6A006F2F75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4CE18F719408EC6006F2F75 /* Unit.h */,
+				A4CE18F819408EC6006F2F75 /* Unit.m */,
+				A4CE18FA19408ED4006F2F75 /* Army.h */,
+				A4CE18FB19408ED4006F2F75 /* Army.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4CE18F619408EA5006F2F75 /* GameOverScene.m in Sources */,
+				A4CE18FC19408ED4006F2F75 /* Army.m in Sources */,
 				A4CE18C619408C50006F2F75 /* main.m in Sources */,
 				A4CE18D019408C51006F2F75 /* BattleWarsViewController.m in Sources */,
+				A4CE18F919408EC6006F2F75 /* Unit.m in Sources */,
 				A4CE18CA19408C51006F2F75 /* BattleWarsAppDelegate.m in Sources */,
 				A4CE18D319408C51006F2F75 /* BattleWarsMyScene.m in Sources */,
 			);
@@ -303,6 +332,7 @@
 				A4CE18CC19408C51006F2F75 /* Base */,
 			);
 			name = Main.storyboard;
+			path = BattleWarsSpriteKit;
 			sourceTree = "<group>";
 		};
 		A4CE18E619408C52006F2F75 /* InfoPlist.strings */ = {
@@ -394,6 +424,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BattleWarsSpriteKit/BattleWarsSpriteKit-Prefix.pch";
 				INFOPLIST_FILE = "BattleWarsSpriteKit/BattleWarsSpriteKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -408,6 +439,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BattleWarsSpriteKit/BattleWarsSpriteKit-Prefix.pch";
 				INFOPLIST_FILE = "BattleWarsSpriteKit/BattleWarsSpriteKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
