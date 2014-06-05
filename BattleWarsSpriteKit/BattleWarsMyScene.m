@@ -8,7 +8,6 @@
 
 #import "BattleWarsMyScene.h"
 #import "GameOverScene.h"
-#import "Army.h"
 #import "Unit.h"
 
 @interface BattleWarsMyScene () <SKPhysicsContactDelegate>
@@ -52,9 +51,28 @@ static const uint32_t projectileCategory     =  0x1 << 0;
 static const uint32_t monsterCategory        =  0x1 << 1;
 
 @implementation BattleWarsMyScene
+
+- (Army *)goodArmy {
+    if (!_goodArmy) _goodArmy = [[Army alloc] init];
+    return _goodArmy;
+}
+
+- (Army *)evilArmy {
+    if (!_evilArmy)_evilArmy = [[Army alloc] init];
+    return _evilArmy;
+}
  
 
 -(id)initWithSize:(CGSize)size {
+    NSMutableArray *goodUnits = [self.goodArmy activeGoodUnits];
+    
+    Unit *firstGoodUnit = [goodUnits objectAtIndex:0];
+    Unit *secondGoodUnit = [goodUnits objectAtIndex:1];
+    Unit *thirdGoodUnit = [goodUnits objectAtIndex:2];
+    Unit *fourthGoodUnit = [goodUnits objectAtIndex:3];
+    Unit *fifthGoodUnit = [goodUnits objectAtIndex:4];
+
+    
     if (self = [super initWithSize:size]) {
         
         // 2
@@ -64,28 +82,31 @@ static const uint32_t monsterCategory        =  0x1 << 1;
         self.backgroundColor = [SKColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
         
         // 4
-        if (self.army.numberOfActiveGoodUnits > 0) {
-        self.player1 = [SKSpriteNode spriteNodeWithImageNamed:@"player"];
+        //if (self.army.numberOfActiveGoodUnits > 0) {
+        self.player1 = [SKSpriteNode spriteNodeWithImageNamed:firstGoodUnit.imageFilename];
         self.player1.position = CGPointMake(self.player1.size.width * 0.2, self.frame.size.height * 0.2);
         [self addChild:self.player1];
-        }
-        if (self.army.numberOfActiveGoodUnits > 1) {
-        self.player2 = [SKSpriteNode spriteNodeWithImageNamed:@"player"];
+        //}
+        //if (self.army.numberOfActiveGoodUnits > 1) {
+        self.player2 = [SKSpriteNode spriteNodeWithImageNamed:secondGoodUnit.imageFilename];
         self.player2.position = CGPointMake(self.player2.size.width * 0.4, self.frame.size.height * 0.4);
         [self addChild:self.player2];
-        }
-        
-        self.player3 = [SKSpriteNode spriteNodeWithImageNamed:@"player"];
+        //}
+        //if (self.army.numberOfActiveGoodUnits > 2) {
+        self.player3 = [SKSpriteNode spriteNodeWithImageNamed:thirdGoodUnit.imageFilename];
         self.player3.position = CGPointMake(self.player1.size.width * 0.6, self.frame.size.height * 0.6);
         [self addChild:self.player3];
-        
-        self.player4 = [SKSpriteNode spriteNodeWithImageNamed:@"player"];
+        //}
+        //if (self.army.numberOfActiveGoodUnits > 3) {
+        self.player4 = [SKSpriteNode spriteNodeWithImageNamed:fourthGoodUnit.imageFilename];
         self.player4.position = CGPointMake(self.player1.size.width * 0.8, self.frame.size.height * 0.8);
         [self addChild:self.player4];
-        
-        self.player5 = [SKSpriteNode spriteNodeWithImageNamed:@"player"];
+        //}
+        //if (self.army.numberOfActiveGoodUnits > 4) {
+        self.player5 = [SKSpriteNode spriteNodeWithImageNamed:fifthGoodUnit.imageFilename];
         self.player5.position = CGPointMake(self.player1.size.width, self.frame.size.height);
         [self addChild:self.player5];
+        //}
     }
     
     self.physicsWorld.gravity = CGVectorMake(0,0);

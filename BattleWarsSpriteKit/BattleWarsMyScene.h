@@ -7,7 +7,11 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "Army.h"
 
 @interface BattleWarsMyScene : SKScene
+
+@property (nonatomic)Army *goodArmy;
+@property (nonatomic)Army *evilArmy;
 
 @end
