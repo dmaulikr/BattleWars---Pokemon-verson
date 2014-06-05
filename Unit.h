@@ -15,12 +15,12 @@ typedef NS_ENUM(NSInteger, UnitType) {
     UnitTypeKnight,     // high speed medium armour low range
     UnitTypeBerserker,  // high damage
     UnitTypeMage,       // very high damage
-    
+  /*
     UnitTypeEvilWarrior,    //standard evil soldier
     UnitTypeEvilPixy,      //very fast low armour low health low range and medium hitpoints
     UnitTypeEvilScareCrow,  //very slow, high armour, low speed, medium attack
     UnitTypeEvilRunner,     //very fast low everything except for extremly high damage
-    UnitTypeEvilGrenader,   //long range low damage
+    UnitTypeEvilGrenader,   //long range low damage*/
 };
 
 @interface Unit : NSObject

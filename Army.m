@@ -26,7 +26,7 @@
     return _evilArmy;
 }
 
-- (NSMutableArray *)allEvilUnits {
+/*- (NSMutableArray *)allEvilUnits {
     if (!_allEvilUnits) {
         _allEvilUnits = [[NSMutableArray alloc] init];
         
@@ -37,7 +37,7 @@
         [_allEvilUnits addObject:[Unit makeUnitOfType:UnitTypeEvilGrenader]];
     }
     return _allEvilUnits;
-}
+}*/
 
 - (NSMutableArray *)allGoodUnits {
     if (!_allGoodUnits) {
@@ -53,7 +53,7 @@
     return _allGoodUnits;
 }
 
-- (NSArray *)activeEvilUnits {
+/*- (NSArray *)activeEvilUnits {
     if (self.allEvilUnits.count == 1) {
         return @[[self.allEvilUnits objectAtIndex:0]];
     } else if (self.allEvilUnits.count == 2) {
@@ -67,7 +67,7 @@
     } else {
         return nil;
     }
-}
+}*/
 
 - (NSArray *)activeGoodUnits {
     if (self.allGoodUnits.count == 1) {
@@ -85,7 +85,7 @@
     }
 }
 
-- (NSInteger)numberOfActiveEvilUnits {
+/*- (NSInteger)numberOfActiveEvilUnits {
     NSInteger countOfAllEvilUnits = 0;
     if (self.allEvilUnits.count > 5) {
         countOfAllEvilUnits = 5;
@@ -94,7 +94,7 @@
         countOfAllEvilUnits = self.allEvilUnits.count;
     }
     return countOfAllEvilUnits;
-}
+}*/
 
 - (NSInteger)numberOfActiveGoodUnits {
     NSInteger countOfAllGoodUnits = 0;

@@ -16,7 +16,7 @@
 
 + (instancetype)makeUnitOfType:(UnitType)type {
     Unit *unit = [[Unit alloc] init];
-    
+    /*
     if (type == UnitTypeEvilGrenader) {
         unit.hitpoints = 10;
         unit.range = 5;
@@ -61,7 +61,7 @@
         unit.speed = 2;
         unit.imageFilename = @"evilWarrior.jpg";
         unit.name = @"Bad Guy";
-    }
+    }*/
     
     if (type == UnitTypeWarrior) {
         unit.hitpoints = 5;

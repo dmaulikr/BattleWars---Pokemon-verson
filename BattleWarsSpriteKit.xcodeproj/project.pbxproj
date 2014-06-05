@@ -27,6 +27,15 @@
 		A4CE18F619408EA5006F2F75 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE18F519408EA5006F2F75 /* GameOverScene.m */; };
 		A4CE18F919408EC6006F2F75 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE18F819408EC6006F2F75 /* Unit.m */; };
 		A4CE18FC19408ED4006F2F75 /* Army.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE18FB19408ED4006F2F75 /* Army.m */; };
+		A4CE1902194091A2006F2F75 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = A4CE18FF194091A2006F2F75 /* background-music-aac.caf */; };
+		A4CE1903194091A2006F2F75 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = A4CE1900194091A2006F2F75 /* pew-pew-lei.caf */; };
+		A4CE1904194091A2006F2F75 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A4CE1901194091A2006F2F75 /* sprites.atlas */; };
+		A4CE19071940979A006F2F75 /* archer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4CE19061940979A006F2F75 /* archer.jpg */; };
+		A4CE1909194097A3006F2F75 /* beserker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4CE1908194097A3006F2F75 /* beserker.jpg */; };
+		A4CE190B194097B4006F2F75 /* giant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4CE190A194097B4006F2F75 /* giant.jpg */; };
+		A4CE190F194097C5006F2F75 /* mage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4CE190C194097C5006F2F75 /* mage.jpg */; };
+		A4CE1910194097C5006F2F75 /* Siris.png in Resources */ = {isa = PBXBuildFile; fileRef = A4CE190D194097C5006F2F75 /* Siris.png */; };
+		A4CE1911194097C5006F2F75 /* warrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4CE190E194097C5006F2F75 /* warrior.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +78,15 @@
 		A4CE18F819408EC6006F2F75 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
 		A4CE18FA19408ED4006F2F75 /* Army.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Army.h; sourceTree = "<group>"; };
 		A4CE18FB19408ED4006F2F75 /* Army.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Army.m; sourceTree = "<group>"; };
+		A4CE18FF194091A2006F2F75 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		A4CE1900194091A2006F2F75 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		A4CE1901194091A2006F2F75 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		A4CE19061940979A006F2F75 /* archer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archer.jpg; sourceTree = "<group>"; };
+		A4CE1908194097A3006F2F75 /* beserker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beserker.jpg; path = "../BattleWars copy/Images/beserker.jpg"; sourceTree = "<group>"; };
+		A4CE190A194097B4006F2F75 /* giant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giant.jpg; sourceTree = "<group>"; };
+		A4CE190C194097C5006F2F75 /* mage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mage.jpg; sourceTree = "<group>"; };
+		A4CE190D194097C5006F2F75 /* Siris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Siris.png; sourceTree = "<group>"; };
+		A4CE190E194097C5006F2F75 /* warrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warrior.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,8 @@
 		A4CE18AB19408C4F006F2F75 = {
 			isa = PBXGroup;
 			children = (
+				A4CE190519409776006F2F75 /* Images */,
+				A4CE18FD194091A2006F2F75 /* SpriteKitSimpleGameResources */,
 				A4CE18CB19408C51006F2F75 /* Main.storyboard */,
 				A4CE18F319408E6A006F2F75 /* Model */,
 				A4CE18BF19408C4F006F2F75 /* BattleWarsSpriteKit */,
@@ -190,6 +210,37 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		A4CE18FD194091A2006F2F75 /* SpriteKitSimpleGameResources */ = {
+			isa = PBXGroup;
+			children = (
+				A4CE18FE194091A2006F2F75 /* Sounds */,
+				A4CE1901194091A2006F2F75 /* sprites.atlas */,
+			);
+			path = SpriteKitSimpleGameResources;
+			sourceTree = "<group>";
+		};
+		A4CE18FE194091A2006F2F75 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A4CE18FF194091A2006F2F75 /* background-music-aac.caf */,
+				A4CE1900194091A2006F2F75 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A4CE190519409776006F2F75 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4CE190C194097C5006F2F75 /* mage.jpg */,
+				A4CE190D194097C5006F2F75 /* Siris.png */,
+				A4CE190E194097C5006F2F75 /* warrior.jpg */,
+				A4CE190A194097B4006F2F75 /* giant.jpg */,
+				A4CE1908194097A3006F2F75 /* beserker.jpg */,
+				A4CE19061940979A006F2F75 /* archer.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,10 +318,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4CE190F194097C5006F2F75 /* mage.jpg in Resources */,
+				A4CE1911194097C5006F2F75 /* warrior.jpg in Resources */,
+				A4CE1904194091A2006F2F75 /* sprites.atlas in Resources */,
+				A4CE1910194097C5006F2F75 /* Siris.png in Resources */,
+				A4CE190B194097B4006F2F75 /* giant.jpg in Resources */,
+				A4CE1909194097A3006F2F75 /* beserker.jpg in Resources */,
+				A4CE1902194091A2006F2F75 /* background-music-aac.caf in Resources */,
 				A4CE18C419408C50006F2F75 /* InfoPlist.strings in Resources */,
 				A4CE18D719408C51006F2F75 /* Images.xcassets in Resources */,
 				A4CE18D519408C51006F2F75 /* Spaceship.png in Resources */,
 				A4CE18CD19408C51006F2F75 /* Main.storyboard in Resources */,
+				A4CE19071940979A006F2F75 /* archer.jpg in Resources */,
+				A4CE1903194091A2006F2F75 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
