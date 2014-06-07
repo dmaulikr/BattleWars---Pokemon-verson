@@ -11,6 +11,7 @@
 @import AVFoundation;
 @interface BattleWarsViewController ()
 @property (nonatomic) AVAudioPlayer * backgroundMusicPlayer;
+@property (nonatomic) BattleWarsMyScene *MyScene;
 @end
 
 @implementation BattleWarsViewController
@@ -18,18 +19,20 @@
 - (void)viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
-  //  NSError *error;
-  //  NSURL * backgroundMusicURL = [[NSBundle mainBundle] URLForResource:@"background-music-aac" withExtension:@"caf"];
-  //  self.backgroundMusicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:backgroundMusicURL error:&error];
-  //  self.backgroundMusicPlayer.numberOfLoops = -1;
-  //  [self.backgroundMusicPlayer prepareToPlay];
-  //  [self.backgroundMusicPlayer play];
+  /*  NSError *error;
+    NSURL * backgroundMusicURL = [[NSBundle mainBundle] URLForResource:@"background-music-aac" withExtension:@"caf"];
+    self.backgroundMusicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:backgroundMusicURL error:&error];
+    self.backgroundMusicPlayer.numberOfLoops = -1;
+    [self.backgroundMusicPlayer prepareToPlay];
+    [self.backgroundMusicPlayer play];*/
     
     // Configure the view.
     SKView * skView = (SKView *)self.view;
     if (!skView.scene) {
         skView.showsFPS = YES;
         skView.showsNodeCount = YES;
+       // self.killsLable.text = [NSString stringWithFormat:@"kills = %@", @(self.MyScene.totalKills)];
+       // skView.showsPhysics = YES;
         
         // Create and configure the scene.
         SKScene * scene = [BattleWarsMyScene sceneWithSize:skView.bounds.size];

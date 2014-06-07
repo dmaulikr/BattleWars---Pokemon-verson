@@ -10,5 +10,6 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface BattleWarsViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *killsLable;
 
 @end

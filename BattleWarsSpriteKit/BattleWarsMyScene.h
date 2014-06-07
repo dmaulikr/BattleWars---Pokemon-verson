@@ -14,4 +14,6 @@
 @property (nonatomic)Army *goodArmy;
 @property (nonatomic)Army *evilArmy;
 
+@property (nonatomic) NSInteger totalKills;
+
 @end

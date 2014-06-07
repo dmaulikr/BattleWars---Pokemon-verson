@@ -25,7 +25,7 @@
 @property (nonatomic) NSTimeInterval lastUpdateTimeInterval;
 @end
 
-/*static inline CGPoint rwAdd(CGPoint a, CGPoint b) {
+static inline CGPoint rwAdd(CGPoint a, CGPoint b) {
     return CGPointMake(a.x + b.x, a.y + b.y);
 }
 
@@ -46,7 +46,7 @@ static inline CGPoint rwNormalize(CGPoint a) {
     float length = rwLength(a);
     return CGPointMake(a.x / length, a.y / length);
 }
- */
+
 static const uint32_t projectileCategory     =  0x1 << 0;
 static const uint32_t monsterCategory        =  0x1 << 1;
 
@@ -82,31 +82,31 @@ static const uint32_t monsterCategory        =  0x1 << 1;
         self.backgroundColor = [SKColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
         
         // 4
-        //if (self.army.numberOfActiveGoodUnits > 0) {
+        if (goodUnits.count > 0) {
         self.player1 = [SKSpriteNode spriteNodeWithImageNamed:firstGoodUnit.imageFilename];
-        self.player1.position = CGPointMake(self.player1.size.width * 0.2, self.frame.size.height * 0.2);
+        self.player1.position = CGPointMake(self.player1.size.width/2, self.frame.size.height * 0.2);
         [self addChild:self.player1];
-        //}
-        //if (self.army.numberOfActiveGoodUnits > 1) {
+        }
+        if (goodUnits.count > 1) {
         self.player2 = [SKSpriteNode spriteNodeWithImageNamed:secondGoodUnit.imageFilename];
-        self.player2.position = CGPointMake(self.player2.size.width * 0.4, self.frame.size.height * 0.4);
+        self.player2.position = CGPointMake(self.player2.size.width/2, self.frame.size.height * 0.4);
         [self addChild:self.player2];
-        //}
-        //if (self.army.numberOfActiveGoodUnits > 2) {
+        }
+        if (goodUnits.count > 2) {
         self.player3 = [SKSpriteNode spriteNodeWithImageNamed:thirdGoodUnit.imageFilename];
-        self.player3.position = CGPointMake(self.player1.size.width * 0.6, self.frame.size.height * 0.6);
+        self.player3.position = CGPointMake(self.player3.size.width/2, self.frame.size.height * 0.6);
         [self addChild:self.player3];
-        //}
-        //if (self.army.numberOfActiveGoodUnits > 3) {
+        }
+        if (goodUnits.count > 3) {
         self.player4 = [SKSpriteNode spriteNodeWithImageNamed:fourthGoodUnit.imageFilename];
-        self.player4.position = CGPointMake(self.player1.size.width * 0.8, self.frame.size.height * 0.8);
+        self.player4.position = CGPointMake(self.player3.size.width/2, self.frame.size.height * 0.8);
         [self addChild:self.player4];
-        //}
-        //if (self.army.numberOfActiveGoodUnits > 4) {
+        }
+        if (goodUnits.count > 4) {
         self.player5 = [SKSpriteNode spriteNodeWithImageNamed:fifthGoodUnit.imageFilename];
-        self.player5.position = CGPointMake(self.player1.size.width, self.frame.size.height);
+        self.player5.position = CGPointMake(self.player3.size.width/2, self.frame.size.height);
         [self addChild:self.player5];
-        //}
+        }
     }
     
     self.physicsWorld.gravity = CGVectorMake(0,0);
@@ -116,7 +116,24 @@ static const uint32_t monsterCategory        =  0x1 << 1;
 - (void)addMonster {
     
     // Create sprite
+    NSInteger randNum = arc4random_uniform(5);
+    
     SKSpriteNode * monster = [SKSpriteNode spriteNodeWithImageNamed:@"monster"];
+    if (randNum == 0) {
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"archer"];
+    }
+    if (randNum == 1) {
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"archerMonkey"];
+    }
+    if (randNum == 2) {
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"barbarian"];
+    }
+    if (randNum == 3) {
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"250px-Skeleton_render.png"];
+    }
+    if (randNum == 4) {
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"MINION"];
+    }
     monster.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:monster.size]; // 1
     monster.physicsBody.dynamic = YES; // 2
     monster.physicsBody.categoryBitMask = monsterCategory; // 3
@@ -135,8 +152,8 @@ static const uint32_t monsterCategory        =  0x1 << 1;
     [self addChild:monster];
     
     // Determine speed of the monster
-    int minDuration = 5.0;
-    int maxDuration = 10.0;
+    int minDuration = 10.0;
+    int maxDuration = 20.0;
     int rangeDuration = maxDuration - minDuration;
     int actualDuration = (arc4random() % rangeDuration) + minDuration;
     
@@ -172,7 +189,7 @@ static const uint32_t monsterCategory        =  0x1 << 1;
     [self updateWithTimeSinceLastUpdate:timeSinceLast];
     
 }
-/*-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     [self runAction:[SKAction playSoundFileNamed:@"pew-pew-lei.caf" waitForCompletion:NO]];
     
     
@@ -181,7 +198,7 @@ static const uint32_t monsterCategory        =  0x1 << 1;
     CGPoint location = [touch locationInNode:self];
     
     // 2 - Set up initial location of projectile
-    SKSpriteNode * projectile = [SKSpriteNode spriteNodeWithImageNamed:@"projectile"];
+    SKSpriteNode * projectile = [SKSpriteNode spriteNodeWithImageNamed:@"fjhwyu.jpg.png"];
     projectile.position = self.player1.position;
     
     projectile.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:projectile.size.width/2];
@@ -215,21 +232,24 @@ static const uint32_t monsterCategory        =  0x1 << 1;
     SKAction * actionMoveDone = [SKAction removeFromParent];
     [projectile runAction:[SKAction sequence:@[actionMove, actionMoveDone]]];
     
-}*/
+}
 
-/*- (void)projectile:(SKSpriteNode *)projectile didCollideWithMonster:(SKSpriteNode *)monster {
+- (void)projectile:(SKSpriteNode *)projectile didCollideWithMonster:(SKSpriteNode *)monster {
     NSLog(@"Hit");
     [projectile removeFromParent];
     [monster removeFromParent];
+    self.totalKills++;
     self.monstersDestroyed++;
-    if (self.monstersDestroyed > 5) {
+    NSLog([NSString stringWithFormat:@"totalKills = %@", @(self.totalKills)]);
+    // Adjusting the mount of kills it requires to win
+    if (self.monstersDestroyed > 30) {
         SKTransition *reveal = [SKTransition flipHorizontalWithDuration:0.5];
         SKScene * gameOverScene = [[GameOverScene alloc] initWithSize:self.size won:YES];
         [self.view presentScene:gameOverScene transition: reveal];
     }
-}*/
+}
 
-/*- (void)didBeginContact:(SKPhysicsContact *)contact
+- (void)didBeginContact:(SKPhysicsContact *)contact
 {
     // 1
     SKPhysicsBody *firstBody, *secondBody;
@@ -251,6 +271,6 @@ static const uint32_t monsterCategory        =  0x1 << 1;
     {
         [self projectile:(SKSpriteNode *) firstBody.node didCollideWithMonster:(SKSpriteNode *) secondBody.node];
     }
-}*/
+}
 
 @end

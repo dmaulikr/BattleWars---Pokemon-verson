@@ -13,8 +13,8 @@
 - (NSInteger)numberOfActiveGoodUnits;
 - (NSMutableArray *)activeGoodUnits;
 
-//- (NSInteger)numberOfActiveEvilUnits;
-//- (NSMutableArray *)activeEvilUnits;
+- (NSInteger)numberOfActiveEvilUnits;
+- (NSMutableArray *)activeEvilUnits;
 
 @property (nonatomic)Army *goodArmy;
 @property (nonatomic)Army *evilArmy;

@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A45E5E271942E1B2003DD2AC /* archer.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E201942E1B2003DD2AC /* archer.png */; };
+		A45E5E281942E1B2003DD2AC /* archerMonkey.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E211942E1B2003DD2AC /* archerMonkey.png */; };
+		A45E5E291942E1B2003DD2AC /* barbarian.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E221942E1B2003DD2AC /* barbarian.png */; };
+		A45E5E2A1942E1B2003DD2AC /* knight.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E231942E1B2003DD2AC /* knight.png */; };
+		A45E5E2B1942E1B2003DD2AC /* mage.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E241942E1B2003DD2AC /* mage.png */; };
+		A45E5E2C1942E1B2003DD2AC /* virus.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E251942E1B2003DD2AC /* virus.png */; };
+		A45E5E2D1942E1B2003DD2AC /* warrior.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E261942E1B2003DD2AC /* warrior.png */; };
+		A45E5E351942E1E8003DD2AC /* archer copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E2E1942E1E8003DD2AC /* archer copy.png */; };
+		A45E5E361942E1E8003DD2AC /* archerMonkey copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E2F1942E1E8003DD2AC /* archerMonkey copy.png */; };
+		A45E5E371942E1E8003DD2AC /* barbarian copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E301942E1E8003DD2AC /* barbarian copy.png */; };
+		A45E5E381942E1E8003DD2AC /* knight copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E311942E1E8003DD2AC /* knight copy.png */; };
+		A45E5E391942E1E8003DD2AC /* mage copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E321942E1E8003DD2AC /* mage copy.png */; };
+		A45E5E3A1942E1E8003DD2AC /* virus copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E331942E1E8003DD2AC /* virus copy.png */; };
+		A45E5E3B1942E1E8003DD2AC /* warrior copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E341942E1E8003DD2AC /* warrior copy.png */; };
+		A45E5E3F1942E31E003DD2AC /* 250px-Skeleton_render.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E3C1942E31E003DD2AC /* 250px-Skeleton_render.png */; };
+		A45E5E401942E31E003DD2AC /* fjhwyu.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E3D1942E31E003DD2AC /* fjhwyu.jpg.png */; };
+		A45E5E411942E31E003DD2AC /* MINION.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E3E1942E31E003DD2AC /* MINION.png */; };
+		A45E5E471942EE19003DD2AC /* 200_s-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E421942EE19003DD2AC /* 200_s-1.gif */; };
+		A45E5E481942EE19003DD2AC /* 200_s.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E431942EE19003DD2AC /* 200_s.gif */; };
+		A45E5E491942EE19003DD2AC /* pociBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E441942EE19003DD2AC /* pociBall.gif */; };
+		A45E5E4A1942EE19003DD2AC /* pociBone.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E451942EE19003DD2AC /* pociBone.tiff */; };
+		A45E5E4B1942EE19003DD2AC /* pociDrag.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E461942EE19003DD2AC /* pociDrag.tiff */; };
 		A4CE18B819408C4F006F2F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18B719408C4F006F2F75 /* Foundation.framework */; };
 		A4CE18BA19408C4F006F2F75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18B919408C4F006F2F75 /* CoreGraphics.framework */; };
 		A4CE18BC19408C4F006F2F75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18BB19408C4F006F2F75 /* UIKit.framework */; };
@@ -30,13 +52,6 @@
 		A4CE1902194091A2006F2F75 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = A4CE18FF194091A2006F2F75 /* background-music-aac.caf */; };
 		A4CE1903194091A2006F2F75 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = A4CE1900194091A2006F2F75 /* pew-pew-lei.caf */; };
 		A4CE1904194091A2006F2F75 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A4CE1901194091A2006F2F75 /* sprites.atlas */; };
-		A4CE19181940A362006F2F75 /* archer.png in Resources */ = {isa = PBXBuildFile; fileRef = A4CE19121940A362006F2F75 /* archer.png */; };
-		A4CE19191940A362006F2F75 /* archerMonkey.png in Resources */ = {isa = PBXBuildFile; fileRef = A4CE19131940A362006F2F75 /* archerMonkey.png */; };
-		A4CE191A1940A362006F2F75 /* barbarian.png in Resources */ = {isa = PBXBuildFile; fileRef = A4CE19141940A362006F2F75 /* barbarian.png */; };
-		A4CE191B1940A362006F2F75 /* knight.png in Resources */ = {isa = PBXBuildFile; fileRef = A4CE19151940A362006F2F75 /* knight.png */; };
-		A4CE191C1940A362006F2F75 /* mage.png in Resources */ = {isa = PBXBuildFile; fileRef = A4CE19161940A362006F2F75 /* mage.png */; };
-		A4CE191D1940A362006F2F75 /* warrior.png in Resources */ = {isa = PBXBuildFile; fileRef = A4CE19171940A362006F2F75 /* warrior.png */; };
-		A4CE191F1940A602006F2F75 /* virus.png in Resources */ = {isa = PBXBuildFile; fileRef = A4CE191E1940A602006F2F75 /* virus.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +65,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A45E5E201942E1B2003DD2AC /* archer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = archer.png; path = Images/evil/archer.png; sourceTree = "<group>"; };
+		A45E5E211942E1B2003DD2AC /* archerMonkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = archerMonkey.png; path = Images/evil/archerMonkey.png; sourceTree = "<group>"; };
+		A45E5E221942E1B2003DD2AC /* barbarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = barbarian.png; path = Images/evil/barbarian.png; sourceTree = "<group>"; };
+		A45E5E231942E1B2003DD2AC /* knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knight.png; path = Images/evil/knight.png; sourceTree = "<group>"; };
+		A45E5E241942E1B2003DD2AC /* mage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mage.png; path = Images/evil/mage.png; sourceTree = "<group>"; };
+		A45E5E251942E1B2003DD2AC /* virus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = virus.png; path = Images/evil/virus.png; sourceTree = "<group>"; };
+		A45E5E261942E1B2003DD2AC /* warrior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warrior.png; path = Images/evil/warrior.png; sourceTree = "<group>"; };
+		A45E5E2E1942E1E8003DD2AC /* archer copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "archer copy.png"; path = "Images/archer copy.png"; sourceTree = "<group>"; };
+		A45E5E2F1942E1E8003DD2AC /* archerMonkey copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "archerMonkey copy.png"; path = "Images/archerMonkey copy.png"; sourceTree = "<group>"; };
+		A45E5E301942E1E8003DD2AC /* barbarian copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "barbarian copy.png"; path = "Images/barbarian copy.png"; sourceTree = "<group>"; };
+		A45E5E311942E1E8003DD2AC /* knight copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knight copy.png"; path = "Images/knight copy.png"; sourceTree = "<group>"; };
+		A45E5E321942E1E8003DD2AC /* mage copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mage copy.png"; path = "Images/mage copy.png"; sourceTree = "<group>"; };
+		A45E5E331942E1E8003DD2AC /* virus copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "virus copy.png"; path = "Images/virus copy.png"; sourceTree = "<group>"; };
+		A45E5E341942E1E8003DD2AC /* warrior copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "warrior copy.png"; path = "Images/warrior copy.png"; sourceTree = "<group>"; };
+		A45E5E3C1942E31E003DD2AC /* 250px-Skeleton_render.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "250px-Skeleton_render.png"; path = "Images/250px-Skeleton_render.png"; sourceTree = "<group>"; };
+		A45E5E3D1942E31E003DD2AC /* fjhwyu.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fjhwyu.jpg.png; path = Images/fjhwyu.jpg.png; sourceTree = "<group>"; };
+		A45E5E3E1942E31E003DD2AC /* MINION.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MINION.png; path = Images/MINION.png; sourceTree = "<group>"; };
+		A45E5E421942EE19003DD2AC /* 200_s-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "200_s-1.gif"; path = "Images/200_s-1.gif"; sourceTree = "<group>"; };
+		A45E5E431942EE19003DD2AC /* 200_s.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 200_s.gif; path = Images/200_s.gif; sourceTree = "<group>"; };
+		A45E5E441942EE19003DD2AC /* pociBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pociBall.gif; path = Images/pociBall.gif; sourceTree = "<group>"; };
+		A45E5E451942EE19003DD2AC /* pociBone.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pociBone.tiff; path = Images/pociBone.tiff; sourceTree = "<group>"; };
+		A45E5E461942EE19003DD2AC /* pociDrag.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pociDrag.tiff; path = Images/pociDrag.tiff; sourceTree = "<group>"; };
 		A4CE18B419408C4F006F2F75 /* BattleWarsSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleWarsSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CE18B719408C4F006F2F75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4CE18B919408C4F006F2F75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,13 +119,6 @@
 		A4CE18FF194091A2006F2F75 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		A4CE1900194091A2006F2F75 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		A4CE1901194091A2006F2F75 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
-		A4CE19121940A362006F2F75 /* archer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = archer.png; path = Images/archer.png; sourceTree = "<group>"; };
-		A4CE19131940A362006F2F75 /* archerMonkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = archerMonkey.png; path = Images/archerMonkey.png; sourceTree = "<group>"; };
-		A4CE19141940A362006F2F75 /* barbarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = barbarian.png; path = Images/barbarian.png; sourceTree = "<group>"; };
-		A4CE19151940A362006F2F75 /* knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knight.png; path = Images/knight.png; sourceTree = "<group>"; };
-		A4CE19161940A362006F2F75 /* mage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mage.png; path = Images/mage.png; sourceTree = "<group>"; };
-		A4CE19171940A362006F2F75 /* warrior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warrior.png; path = Images/warrior.png; sourceTree = "<group>"; };
-		A4CE191E1940A602006F2F75 /* virus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = virus.png; path = Images/virus.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,13 +263,28 @@
 		A4CE190519409776006F2F75 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A4CE191E1940A602006F2F75 /* virus.png */,
-				A4CE19121940A362006F2F75 /* archer.png */,
-				A4CE19131940A362006F2F75 /* archerMonkey.png */,
-				A4CE19141940A362006F2F75 /* barbarian.png */,
-				A4CE19151940A362006F2F75 /* knight.png */,
-				A4CE19161940A362006F2F75 /* mage.png */,
-				A4CE19171940A362006F2F75 /* warrior.png */,
+				A45E5E421942EE19003DD2AC /* 200_s-1.gif */,
+				A45E5E431942EE19003DD2AC /* 200_s.gif */,
+				A45E5E441942EE19003DD2AC /* pociBall.gif */,
+				A45E5E451942EE19003DD2AC /* pociBone.tiff */,
+				A45E5E461942EE19003DD2AC /* pociDrag.tiff */,
+				A45E5E3C1942E31E003DD2AC /* 250px-Skeleton_render.png */,
+				A45E5E3D1942E31E003DD2AC /* fjhwyu.jpg.png */,
+				A45E5E3E1942E31E003DD2AC /* MINION.png */,
+				A45E5E2E1942E1E8003DD2AC /* archer copy.png */,
+				A45E5E2F1942E1E8003DD2AC /* archerMonkey copy.png */,
+				A45E5E301942E1E8003DD2AC /* barbarian copy.png */,
+				A45E5E311942E1E8003DD2AC /* knight copy.png */,
+				A45E5E321942E1E8003DD2AC /* mage copy.png */,
+				A45E5E331942E1E8003DD2AC /* virus copy.png */,
+				A45E5E341942E1E8003DD2AC /* warrior copy.png */,
+				A45E5E201942E1B2003DD2AC /* archer.png */,
+				A45E5E211942E1B2003DD2AC /* archerMonkey.png */,
+				A45E5E221942E1B2003DD2AC /* barbarian.png */,
+				A45E5E231942E1B2003DD2AC /* knight.png */,
+				A45E5E241942E1B2003DD2AC /* mage.png */,
+				A45E5E251942E1B2003DD2AC /* virus.png */,
+				A45E5E261942E1B2003DD2AC /* warrior.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -321,20 +366,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CE191D1940A362006F2F75 /* warrior.png in Resources */,
-				A4CE191A1940A362006F2F75 /* barbarian.png in Resources */,
-				A4CE191B1940A362006F2F75 /* knight.png in Resources */,
+				A45E5E2D1942E1B2003DD2AC /* warrior.png in Resources */,
+				A45E5E291942E1B2003DD2AC /* barbarian.png in Resources */,
+				A45E5E2A1942E1B2003DD2AC /* knight.png in Resources */,
+				A45E5E4A1942EE19003DD2AC /* pociBone.tiff in Resources */,
 				A4CE1904194091A2006F2F75 /* sprites.atlas in Resources */,
+				A45E5E371942E1E8003DD2AC /* barbarian copy.png in Resources */,
 				A4CE1902194091A2006F2F75 /* background-music-aac.caf in Resources */,
-				A4CE19181940A362006F2F75 /* archer.png in Resources */,
-				A4CE191C1940A362006F2F75 /* mage.png in Resources */,
-				A4CE19191940A362006F2F75 /* archerMonkey.png in Resources */,
+				A45E5E3F1942E31E003DD2AC /* 250px-Skeleton_render.png in Resources */,
+				A45E5E271942E1B2003DD2AC /* archer.png in Resources */,
+				A45E5E2B1942E1B2003DD2AC /* mage.png in Resources */,
+				A45E5E491942EE19003DD2AC /* pociBall.gif in Resources */,
+				A45E5E281942E1B2003DD2AC /* archerMonkey.png in Resources */,
+				A45E5E391942E1E8003DD2AC /* mage copy.png in Resources */,
 				A4CE18C419408C50006F2F75 /* InfoPlist.strings in Resources */,
-				A4CE191F1940A602006F2F75 /* virus.png in Resources */,
 				A4CE18D719408C51006F2F75 /* Images.xcassets in Resources */,
+				A45E5E3B1942E1E8003DD2AC /* warrior copy.png in Resources */,
 				A4CE18D519408C51006F2F75 /* Spaceship.png in Resources */,
+				A45E5E4B1942EE19003DD2AC /* pociDrag.tiff in Resources */,
+				A45E5E471942EE19003DD2AC /* 200_s-1.gif in Resources */,
+				A45E5E411942E31E003DD2AC /* MINION.png in Resources */,
+				A45E5E361942E1E8003DD2AC /* archerMonkey copy.png in Resources */,
 				A4CE18CD19408C51006F2F75 /* Main.storyboard in Resources */,
+				A45E5E351942E1E8003DD2AC /* archer copy.png in Resources */,
+				A45E5E2C1942E1B2003DD2AC /* virus.png in Resources */,
+				A45E5E3A1942E1E8003DD2AC /* virus copy.png in Resources */,
+				A45E5E401942E31E003DD2AC /* fjhwyu.jpg.png in Resources */,
+				A45E5E381942E1E8003DD2AC /* knight copy.png in Resources */,
 				A4CE1903194091A2006F2F75 /* pew-pew-lei.caf in Resources */,
+				A45E5E481942EE19003DD2AC /* 200_s.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +629,7 @@
 				A4CE18EF19408C52006F2F75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4CE18F019408C52006F2F75 /* Build configuration list for PBXNativeTarget "BattleWarsSpriteKitTests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +638,7 @@
 				A4CE18F219408C52006F2F75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
