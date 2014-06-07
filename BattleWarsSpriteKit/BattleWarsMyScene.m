@@ -116,23 +116,26 @@ static const uint32_t monsterCategory        =  0x1 << 1;
 - (void)addMonster {
     
     // Create sprite
-    NSInteger randNum = arc4random_uniform(5);
+    NSInteger randNum = arc4random_uniform(6);
     
     SKSpriteNode * monster = [SKSpriteNode spriteNodeWithImageNamed:@"monster"];
     if (randNum == 0) {
-        monster = [SKSpriteNode spriteNodeWithImageNamed:@"archer"];
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"pociBone.tiff"];
     }
     if (randNum == 1) {
-        monster = [SKSpriteNode spriteNodeWithImageNamed:@"archerMonkey"];
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"pociDrag.tiff"];
     }
     if (randNum == 2) {
-        monster = [SKSpriteNode spriteNodeWithImageNamed:@"barbarian"];
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"pociBone.tiff"];
     }
     if (randNum == 3) {
-        monster = [SKSpriteNode spriteNodeWithImageNamed:@"250px-Skeleton_render.png"];
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"200_s.gif"];
     }
     if (randNum == 4) {
-        monster = [SKSpriteNode spriteNodeWithImageNamed:@"MINION"];
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"200_s-1.gif"];
+    }
+    if (randNum == 5) {
+        monster = [SKSpriteNode spriteNodeWithImageNamed:@"pociBlueDrag.tiff"];
     }
     monster.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:monster.size]; // 1
     monster.physicsBody.dynamic = YES; // 2
@@ -198,7 +201,7 @@ static const uint32_t monsterCategory        =  0x1 << 1;
     CGPoint location = [touch locationInNode:self];
     
     // 2 - Set up initial location of projectile
-    SKSpriteNode * projectile = [SKSpriteNode spriteNodeWithImageNamed:@"fjhwyu.jpg.png"];
+    SKSpriteNode * projectile = [SKSpriteNode spriteNodeWithImageNamed:@"pociBall.gif"];
     projectile.position = self.player1.position;
     
     projectile.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:projectile.size.width/2];

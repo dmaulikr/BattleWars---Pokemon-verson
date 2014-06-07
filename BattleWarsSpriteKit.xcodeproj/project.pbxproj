@@ -21,14 +21,21 @@
 		A45E5E391942E1E8003DD2AC /* mage copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E321942E1E8003DD2AC /* mage copy.png */; };
 		A45E5E3A1942E1E8003DD2AC /* virus copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E331942E1E8003DD2AC /* virus copy.png */; };
 		A45E5E3B1942E1E8003DD2AC /* warrior copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E341942E1E8003DD2AC /* warrior copy.png */; };
-		A45E5E3F1942E31E003DD2AC /* 250px-Skeleton_render.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E3C1942E31E003DD2AC /* 250px-Skeleton_render.png */; };
+		A45E5E3F1942E31E003DD2AC /* cocSkelly.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E3C1942E31E003DD2AC /* cocSkelly.png */; };
 		A45E5E401942E31E003DD2AC /* fjhwyu.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E3D1942E31E003DD2AC /* fjhwyu.jpg.png */; };
 		A45E5E411942E31E003DD2AC /* MINION.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E3E1942E31E003DD2AC /* MINION.png */; };
-		A45E5E471942EE19003DD2AC /* 200_s-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E421942EE19003DD2AC /* 200_s-1.gif */; };
 		A45E5E481942EE19003DD2AC /* 200_s.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E431942EE19003DD2AC /* 200_s.gif */; };
-		A45E5E491942EE19003DD2AC /* pociBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E441942EE19003DD2AC /* pociBall.gif */; };
 		A45E5E4A1942EE19003DD2AC /* pociBone.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E451942EE19003DD2AC /* pociBone.tiff */; };
 		A45E5E4B1942EE19003DD2AC /* pociDrag.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E461942EE19003DD2AC /* pociDrag.tiff */; };
+		A45E5E521942F467003DD2AC /* 200_s-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E511942F467003DD2AC /* 200_s-1.gif */; };
+		A45E5E541942F4D8003DD2AC /* pociBall.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E531942F4D8003DD2AC /* pociBall.gif */; };
+		A45E5E571942F5DD003DD2AC /* pociBlueDrag.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E551942F5DD003DD2AC /* pociBlueDrag.tiff */; };
+		A45E5E581942F5DD003DD2AC /* pociBone.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E561942F5DD003DD2AC /* pociBone.tiff */; };
+		A45E5E5D1942F74F003DD2AC /* pociBlueOrangeDrag.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E591942F74F003DD2AC /* pociBlueOrangeDrag.png */; };
+		A45E5E5E1942F74F003DD2AC /* pociOrangeDrag.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E5A1942F74F003DD2AC /* pociOrangeDrag.tiff */; };
+		A45E5E5F1942F74F003DD2AC /* pociPurpleDrag.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E5B1942F74F003DD2AC /* pociPurpleDrag.tiff */; };
+		A45E5E601942F74F003DD2AC /* pociRedDrag.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E5C1942F74F003DD2AC /* pociRedDrag.png */; };
+		A45E5E641942F950003DD2AC /* pociEagle.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E631942F950003DD2AC /* pociEagle.png */; };
 		A4CE18B819408C4F006F2F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18B719408C4F006F2F75 /* Foundation.framework */; };
 		A4CE18BA19408C4F006F2F75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18B919408C4F006F2F75 /* CoreGraphics.framework */; };
 		A4CE18BC19408C4F006F2F75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18BB19408C4F006F2F75 /* UIKit.framework */; };
@@ -79,14 +86,21 @@
 		A45E5E321942E1E8003DD2AC /* mage copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mage copy.png"; path = "Images/mage copy.png"; sourceTree = "<group>"; };
 		A45E5E331942E1E8003DD2AC /* virus copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "virus copy.png"; path = "Images/virus copy.png"; sourceTree = "<group>"; };
 		A45E5E341942E1E8003DD2AC /* warrior copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "warrior copy.png"; path = "Images/warrior copy.png"; sourceTree = "<group>"; };
-		A45E5E3C1942E31E003DD2AC /* 250px-Skeleton_render.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "250px-Skeleton_render.png"; path = "Images/250px-Skeleton_render.png"; sourceTree = "<group>"; };
+		A45E5E3C1942E31E003DD2AC /* cocSkelly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cocSkelly.png; path = Images/cocSkelly.png; sourceTree = "<group>"; };
 		A45E5E3D1942E31E003DD2AC /* fjhwyu.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fjhwyu.jpg.png; path = Images/fjhwyu.jpg.png; sourceTree = "<group>"; };
 		A45E5E3E1942E31E003DD2AC /* MINION.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MINION.png; path = Images/MINION.png; sourceTree = "<group>"; };
-		A45E5E421942EE19003DD2AC /* 200_s-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "200_s-1.gif"; path = "Images/200_s-1.gif"; sourceTree = "<group>"; };
 		A45E5E431942EE19003DD2AC /* 200_s.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 200_s.gif; path = Images/200_s.gif; sourceTree = "<group>"; };
-		A45E5E441942EE19003DD2AC /* pociBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pociBall.gif; path = Images/pociBall.gif; sourceTree = "<group>"; };
 		A45E5E451942EE19003DD2AC /* pociBone.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pociBone.tiff; path = Images/pociBone.tiff; sourceTree = "<group>"; };
 		A45E5E461942EE19003DD2AC /* pociDrag.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pociDrag.tiff; path = Images/pociDrag.tiff; sourceTree = "<group>"; };
+		A45E5E511942F467003DD2AC /* 200_s-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "200_s-1.gif"; path = "Images/200_s-1.gif"; sourceTree = "<group>"; };
+		A45E5E531942F4D8003DD2AC /* pociBall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pociBall.gif; path = Images/pociBall.gif; sourceTree = "<group>"; };
+		A45E5E551942F5DD003DD2AC /* pociBlueDrag.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pociBlueDrag.tiff; path = Images/pociBlueDrag.tiff; sourceTree = "<group>"; };
+		A45E5E561942F5DD003DD2AC /* pociBone.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pociBone.tiff; path = Images/pociBone.tiff; sourceTree = "<group>"; };
+		A45E5E591942F74F003DD2AC /* pociBlueOrangeDrag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pociBlueOrangeDrag.png; sourceTree = "<group>"; };
+		A45E5E5A1942F74F003DD2AC /* pociOrangeDrag.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = pociOrangeDrag.tiff; sourceTree = "<group>"; };
+		A45E5E5B1942F74F003DD2AC /* pociPurpleDrag.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = pociPurpleDrag.tiff; sourceTree = "<group>"; };
+		A45E5E5C1942F74F003DD2AC /* pociRedDrag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pociRedDrag.png; sourceTree = "<group>"; };
+		A45E5E631942F950003DD2AC /* pociEagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pociEagle.png; path = Images/pociEagle.png; sourceTree = "<group>"; };
 		A4CE18B419408C4F006F2F75 /* BattleWarsSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleWarsSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CE18B719408C4F006F2F75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4CE18B919408C4F006F2F75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,6 +160,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A45E5E4C1942EEBC003DD2AC /* CoC */ = {
+			isa = PBXGroup;
+			children = (
+				A45E5E221942E1B2003DD2AC /* barbarian.png */,
+				A45E5E201942E1B2003DD2AC /* archer.png */,
+				A45E5E301942E1E8003DD2AC /* barbarian copy.png */,
+				A45E5E3C1942E31E003DD2AC /* cocSkelly.png */,
+				A45E5E3E1942E31E003DD2AC /* MINION.png */,
+				A45E5E2E1942E1E8003DD2AC /* archer copy.png */,
+			);
+			name = CoC;
+			sourceTree = "<group>";
+		};
+		A45E5E4D1942EEC6003DD2AC /* Poci */ = {
+			isa = PBXGroup;
+			children = (
+				A45E5E631942F950003DD2AC /* pociEagle.png */,
+				A45E5E591942F74F003DD2AC /* pociBlueOrangeDrag.png */,
+				A45E5E5A1942F74F003DD2AC /* pociOrangeDrag.tiff */,
+				A45E5E5B1942F74F003DD2AC /* pociPurpleDrag.tiff */,
+				A45E5E5C1942F74F003DD2AC /* pociRedDrag.png */,
+				A45E5E551942F5DD003DD2AC /* pociBlueDrag.tiff */,
+				A45E5E561942F5DD003DD2AC /* pociBone.tiff */,
+				A45E5E511942F467003DD2AC /* 200_s-1.gif */,
+				A45E5E431942EE19003DD2AC /* 200_s.gif */,
+				A45E5E451942EE19003DD2AC /* pociBone.tiff */,
+				A45E5E461942EE19003DD2AC /* pociDrag.tiff */,
+			);
+			name = Poci;
+			sourceTree = "<group>";
+		};
+		A45E5E4E1942EEFD003DD2AC /* Missiles */ = {
+			isa = PBXGroup;
+			children = (
+				A45E5E531942F4D8003DD2AC /* pociBall.gif */,
+				A45E5E3D1942E31E003DD2AC /* fjhwyu.jpg.png */,
+				A45E5E251942E1B2003DD2AC /* virus.png */,
+				A45E5E331942E1E8003DD2AC /* virus copy.png */,
+			);
+			name = Missiles;
+			sourceTree = "<group>";
+		};
+		A45E5E4F1942EF3B003DD2AC /* Facing right */ = {
+			isa = PBXGroup;
+			children = (
+				A45E5E2F1942E1E8003DD2AC /* archerMonkey copy.png */,
+				A45E5E311942E1E8003DD2AC /* knight copy.png */,
+				A45E5E321942E1E8003DD2AC /* mage copy.png */,
+				A45E5E341942E1E8003DD2AC /* warrior copy.png */,
+			);
+			name = "Facing right";
+			sourceTree = "<group>";
+		};
+		A45E5E501942EF72003DD2AC /* Facing Left */ = {
+			isa = PBXGroup;
+			children = (
+				A45E5E211942E1B2003DD2AC /* archerMonkey.png */,
+				A45E5E231942E1B2003DD2AC /* knight.png */,
+				A45E5E241942E1B2003DD2AC /* mage.png */,
+				A45E5E261942E1B2003DD2AC /* warrior.png */,
+			);
+			name = "Facing Left";
+			sourceTree = "<group>";
+		};
 		A4CE18AB19408C4F006F2F75 = {
 			isa = PBXGroup;
 			children = (
@@ -263,28 +341,11 @@
 		A4CE190519409776006F2F75 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A45E5E421942EE19003DD2AC /* 200_s-1.gif */,
-				A45E5E431942EE19003DD2AC /* 200_s.gif */,
-				A45E5E441942EE19003DD2AC /* pociBall.gif */,
-				A45E5E451942EE19003DD2AC /* pociBone.tiff */,
-				A45E5E461942EE19003DD2AC /* pociDrag.tiff */,
-				A45E5E3C1942E31E003DD2AC /* 250px-Skeleton_render.png */,
-				A45E5E3D1942E31E003DD2AC /* fjhwyu.jpg.png */,
-				A45E5E3E1942E31E003DD2AC /* MINION.png */,
-				A45E5E2E1942E1E8003DD2AC /* archer copy.png */,
-				A45E5E2F1942E1E8003DD2AC /* archerMonkey copy.png */,
-				A45E5E301942E1E8003DD2AC /* barbarian copy.png */,
-				A45E5E311942E1E8003DD2AC /* knight copy.png */,
-				A45E5E321942E1E8003DD2AC /* mage copy.png */,
-				A45E5E331942E1E8003DD2AC /* virus copy.png */,
-				A45E5E341942E1E8003DD2AC /* warrior copy.png */,
-				A45E5E201942E1B2003DD2AC /* archer.png */,
-				A45E5E211942E1B2003DD2AC /* archerMonkey.png */,
-				A45E5E221942E1B2003DD2AC /* barbarian.png */,
-				A45E5E231942E1B2003DD2AC /* knight.png */,
-				A45E5E241942E1B2003DD2AC /* mage.png */,
-				A45E5E251942E1B2003DD2AC /* virus.png */,
-				A45E5E261942E1B2003DD2AC /* warrior.png */,
+				A45E5E501942EF72003DD2AC /* Facing Left */,
+				A45E5E4F1942EF3B003DD2AC /* Facing right */,
+				A45E5E4E1942EEFD003DD2AC /* Missiles */,
+				A45E5E4D1942EEC6003DD2AC /* Poci */,
+				A45E5E4C1942EEBC003DD2AC /* CoC */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -369,29 +430,36 @@
 				A45E5E2D1942E1B2003DD2AC /* warrior.png in Resources */,
 				A45E5E291942E1B2003DD2AC /* barbarian.png in Resources */,
 				A45E5E2A1942E1B2003DD2AC /* knight.png in Resources */,
+				A45E5E571942F5DD003DD2AC /* pociBlueDrag.tiff in Resources */,
 				A45E5E4A1942EE19003DD2AC /* pociBone.tiff in Resources */,
 				A4CE1904194091A2006F2F75 /* sprites.atlas in Resources */,
+				A45E5E541942F4D8003DD2AC /* pociBall.gif in Resources */,
 				A45E5E371942E1E8003DD2AC /* barbarian copy.png in Resources */,
 				A4CE1902194091A2006F2F75 /* background-music-aac.caf in Resources */,
-				A45E5E3F1942E31E003DD2AC /* 250px-Skeleton_render.png in Resources */,
+				A45E5E5E1942F74F003DD2AC /* pociOrangeDrag.tiff in Resources */,
+				A45E5E3F1942E31E003DD2AC /* cocSkelly.png in Resources */,
 				A45E5E271942E1B2003DD2AC /* archer.png in Resources */,
+				A45E5E521942F467003DD2AC /* 200_s-1.gif in Resources */,
 				A45E5E2B1942E1B2003DD2AC /* mage.png in Resources */,
-				A45E5E491942EE19003DD2AC /* pociBall.gif in Resources */,
 				A45E5E281942E1B2003DD2AC /* archerMonkey.png in Resources */,
+				A45E5E5F1942F74F003DD2AC /* pociPurpleDrag.tiff in Resources */,
 				A45E5E391942E1E8003DD2AC /* mage copy.png in Resources */,
+				A45E5E641942F950003DD2AC /* pociEagle.png in Resources */,
 				A4CE18C419408C50006F2F75 /* InfoPlist.strings in Resources */,
 				A4CE18D719408C51006F2F75 /* Images.xcassets in Resources */,
 				A45E5E3B1942E1E8003DD2AC /* warrior copy.png in Resources */,
 				A4CE18D519408C51006F2F75 /* Spaceship.png in Resources */,
 				A45E5E4B1942EE19003DD2AC /* pociDrag.tiff in Resources */,
-				A45E5E471942EE19003DD2AC /* 200_s-1.gif in Resources */,
 				A45E5E411942E31E003DD2AC /* MINION.png in Resources */,
 				A45E5E361942E1E8003DD2AC /* archerMonkey copy.png in Resources */,
+				A45E5E5D1942F74F003DD2AC /* pociBlueOrangeDrag.png in Resources */,
 				A4CE18CD19408C51006F2F75 /* Main.storyboard in Resources */,
 				A45E5E351942E1E8003DD2AC /* archer copy.png in Resources */,
 				A45E5E2C1942E1B2003DD2AC /* virus.png in Resources */,
 				A45E5E3A1942E1E8003DD2AC /* virus copy.png in Resources */,
+				A45E5E601942F74F003DD2AC /* pociRedDrag.png in Resources */,
 				A45E5E401942E31E003DD2AC /* fjhwyu.jpg.png in Resources */,
+				A45E5E581942F5DD003DD2AC /* pociBone.tiff in Resources */,
 				A45E5E381942E1E8003DD2AC /* knight copy.png in Resources */,
 				A4CE1903194091A2006F2F75 /* pew-pew-lei.caf in Resources */,
 				A45E5E481942EE19003DD2AC /* 200_s.gif in Resources */,

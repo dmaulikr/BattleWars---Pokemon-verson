@@ -31,7 +31,7 @@
     if (!skView.scene) {
         skView.showsFPS = YES;
         skView.showsNodeCount = YES;
-       // self.killsLable.text = [NSString stringWithFormat:@"kills = %@", @(self.MyScene.totalKills)];
+        //skView.te = [NSString stringWithFormat:@"kills = %@", @(self.MyScene.totalKills)];
        // skView.showsPhysics = YES;
         
         // Create and configure the scene.

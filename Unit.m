@@ -69,7 +69,7 @@
         unit.damage = 2;
         unit.armour = 2;
         unit.speed = 2;
-        unit.imageFilename = @"warrior copy.png";
+        unit.imageFilename = @"pociBlueOrangeDrag.png";
         unit.name = @"Warrior";
     }
     if (type == UnitTypeArcher) {
@@ -78,7 +78,7 @@
         unit.damage = 1;
         unit.armour = 2;
         unit.speed = 2;
-        unit.imageFilename = @"archer copy.png";
+        unit.imageFilename = @"pociBlueDrag.tiff";
         unit.name = @"Archer";
     }
     if (type == UnitTypeClayGiant) {
@@ -87,7 +87,7 @@
         unit.damage = 3;
         unit.armour = 5;
         unit.speed = 1;
-        unit.imageFilename = @"giant copy.jpg";
+        unit.imageFilename = @"pociRedDrag.png";
         unit.name = @"Giant";
     }
     if (type == UnitTypeKnight) {
@@ -96,7 +96,7 @@
         unit.damage = 4;
         unit.armour = 3;
         unit.speed = 5;
-        unit.imageFilename = @"knight copy.png";
+        unit.imageFilename = @"pociPurpleDrag.tiff";
         unit.name = @"Knight";
     }
     if (type == UnitTypeMage) {
@@ -105,7 +105,7 @@
         unit.damage = 6;
         unit.armour = 1;
         unit.speed = 1;
-        unit.imageFilename = @"mage copy.png";
+        unit.imageFilename = @"pociOrangeDrag.tiff";
         unit.name = @"Mage";
     }
     if (type == UnitTypeBerserker) {
@@ -114,7 +114,7 @@
         unit.damage = 5;
         unit.armour = 3;
         unit.speed = 3;
-        unit.imageFilename = @"barbarian copy.png";
+        unit.imageFilename = @"pociEagle.png";
         unit.name = @"Beserker";
     }
     return unit;
