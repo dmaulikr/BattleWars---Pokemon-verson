@@ -19,8 +19,10 @@
         // 2
         NSString * message;
         if (won) {
+            self.backgroundColor = [UIColor greenColor];
             message = @"You Won!";
         } else {
+            self.backgroundColor = [UIColor redColor];
             message = @"You Lose :[";
         }
         

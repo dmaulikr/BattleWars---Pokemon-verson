@@ -79,7 +79,7 @@ static const uint32_t monsterCategory        =  0x1 << 1;
         NSLog(@"Size: %@", NSStringFromCGSize(size));
         
         // 3
-        self.backgroundColor = [SKColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+        self.backgroundColor = [SKColor colorWithHue:0.6 saturation:0.4 brightness:0.8 alpha:1.0];
         
         // 4
         if (goodUnits.count > 0) {
@@ -155,8 +155,8 @@ static const uint32_t monsterCategory        =  0x1 << 1;
     [self addChild:monster];
     
     // Determine speed of the monster
-    int minDuration = 10.0;
-    int maxDuration = 20.0;
+    int minDuration = 2.0;
+    int maxDuration = 7.0;
     int rangeDuration = maxDuration - minDuration;
     int actualDuration = (arc4random() % rangeDuration) + minDuration;
     
@@ -193,8 +193,7 @@ static const uint32_t monsterCategory        =  0x1 << 1;
     
 }
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-    [self runAction:[SKAction playSoundFileNamed:@"pew-pew-lei.caf" waitForCompletion:NO]];
-    
+  //  [self runAction:[SKAction playSoundFileNamed:@"pew-pew-lei.caf" waitForCompletion:NO]];
     
     // 1 - Choose one of the touches to work with
     UITouch * touch = [touches anyObject];

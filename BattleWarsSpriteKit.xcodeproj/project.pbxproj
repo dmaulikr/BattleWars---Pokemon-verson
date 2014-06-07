@@ -36,6 +36,7 @@
 		A45E5E5F1942F74F003DD2AC /* pociPurpleDrag.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E5B1942F74F003DD2AC /* pociPurpleDrag.tiff */; };
 		A45E5E601942F74F003DD2AC /* pociRedDrag.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E5C1942F74F003DD2AC /* pociRedDrag.png */; };
 		A45E5E641942F950003DD2AC /* pociEagle.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E631942F950003DD2AC /* pociEagle.png */; };
+		A45E5E661942FB0D003DD2AC /* Yveltal.png in Resources */ = {isa = PBXBuildFile; fileRef = A45E5E651942FB0D003DD2AC /* Yveltal.png */; };
 		A4CE18B819408C4F006F2F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18B719408C4F006F2F75 /* Foundation.framework */; };
 		A4CE18BA19408C4F006F2F75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18B919408C4F006F2F75 /* CoreGraphics.framework */; };
 		A4CE18BC19408C4F006F2F75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CE18BB19408C4F006F2F75 /* UIKit.framework */; };
@@ -101,6 +102,7 @@
 		A45E5E5B1942F74F003DD2AC /* pociPurpleDrag.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = pociPurpleDrag.tiff; sourceTree = "<group>"; };
 		A45E5E5C1942F74F003DD2AC /* pociRedDrag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pociRedDrag.png; sourceTree = "<group>"; };
 		A45E5E631942F950003DD2AC /* pociEagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pociEagle.png; path = Images/pociEagle.png; sourceTree = "<group>"; };
+		A45E5E651942FB0D003DD2AC /* Yveltal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yveltal.png; path = Images/Yveltal.png; sourceTree = "<group>"; };
 		A4CE18B419408C4F006F2F75 /* BattleWarsSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleWarsSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CE18B719408C4F006F2F75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4CE18B919408C4F006F2F75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -176,6 +178,7 @@
 		A45E5E4D1942EEC6003DD2AC /* Poci */ = {
 			isa = PBXGroup;
 			children = (
+				A45E5E651942FB0D003DD2AC /* Yveltal.png */,
 				A45E5E631942F950003DD2AC /* pociEagle.png */,
 				A45E5E591942F74F003DD2AC /* pociBlueOrangeDrag.png */,
 				A45E5E5A1942F74F003DD2AC /* pociOrangeDrag.tiff */,
@@ -449,6 +452,7 @@
 				A4CE18D719408C51006F2F75 /* Images.xcassets in Resources */,
 				A45E5E3B1942E1E8003DD2AC /* warrior copy.png in Resources */,
 				A4CE18D519408C51006F2F75 /* Spaceship.png in Resources */,
+				A45E5E661942FB0D003DD2AC /* Yveltal.png in Resources */,
 				A45E5E4B1942EE19003DD2AC /* pociDrag.tiff in Resources */,
 				A45E5E411942E31E003DD2AC /* MINION.png in Resources */,
 				A45E5E361942E1E8003DD2AC /* archerMonkey copy.png in Resources */,

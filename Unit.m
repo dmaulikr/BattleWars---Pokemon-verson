@@ -114,7 +114,7 @@
         unit.damage = 5;
         unit.armour = 3;
         unit.speed = 3;
-        unit.imageFilename = @"pociEagle.png";
+        unit.imageFilename = @"Yveltal.png";
         unit.name = @"Beserker";
     }
     return unit;
